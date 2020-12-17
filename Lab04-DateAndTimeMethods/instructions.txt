@@ -1,0 +1,89 @@
+Lab 04
+
+Date and Time Methods
+
+ 
+
+Objective:
+
+ 
+
+Write a class that will test dates and times inputted by the user and determine whether or not it is valid. This will focus on the usages of methods to organize code.
+
+ 
+
+Requirements:
+
+ 
+
+First download the driver and put it in your project
+
+DO NOT ALTER THE DRIVER!
+Use this to run your project
+ 
+
+Write a class file called DateAndTimeTester
+
+This DOES NOT have a main method
+Create the following methods
+run: This method returns nothing and takes no parameters. This is called by the driver and should handle all of the input from the Scanner and dialog for the user.
+isValid: returns true or false if a given String has the correct date and time. The String parameter should be formatted “MM/DD hh:mm” This method should call the methods isValidDate and isValidTime to determine this.
+isValidDate: returns true or false if a given String has a correct date. The String parameter should be formatted “MM/DD” and should use the method getMonth and getDay to determine the date’s validity. Also assume February only has 28 days.
+isValidTime: returns true or false if a given String has a correct time. The String parameter should be formatted “hh:mm” and should use the getHour and getMinute to determine the time’s validity. Valid times are from 1 to 12.
+getMonth: returns an integer value representing the month for a given String. The String parameter is expected to be formatted “MM/DD”.
+getDay: returns an integer value representing the day for a given String. The String parameter is expected to be formatted “MM/DD”.
+getHour: returns an integer value representing the hour for a given String. The String parameter is expected to be formatted “hh:mm”.
+getMinute: returns an integer value representing the minute for a given String. The String parameter is expected to be formatted “hh:mm”.
+For reference MM/DD hh:mm is Month / Date Hour : Minute respectively
+ 
+
+ 
+
+Example Dialog:
+
+ 
+
+Enter a date and time (MM/DD hh:mm) and I will determine if it is valid
+
+06/22 3:00
+
+The date and time is valid!
+
+Would you like to exit? Type "quit" to exit or press [ENTER] to continue
+
+ 
+
+Enter a date and time (MM/DD hh:mm) and I will determine if it is valid
+
+9/31 12:00
+
+The date and time is not valid
+
+Would you like to exit? Type "quit" to exit or press [ENTER] to continue
+
+ 
+
+Enter a date and time (MM/DD hh:mm) and I will determine if it is valid
+
+12/08 13:00
+
+The date and time is not valid
+
+Would you like to exit? Type "quit" to exit or press [ENTER] to continue
+
+quit
+
+Good bye
+
+ 
+
+Lab Questions:
+
+What is the purpose of a parameter for a method.
+If a variable is declared in a method, then can it be used outside of that method?
+If a method returns nothing, then what should its return type be?
+ 
+
+Finally:
+
+Upload file to the dropbox
