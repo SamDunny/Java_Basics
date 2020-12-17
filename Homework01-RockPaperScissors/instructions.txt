@@ -1,0 +1,145 @@
+Homework 01
+
+Rock Paper Scissors!
+
+Due 09/25/2020 at 11:55PM
+
+ 
+
+Objective:
+
+ 
+
+Write a program that simulates a game of rock, paper, scissors between a human and the computer in best 2 out of 3 rounds.
+
+ 
+
+Requirements:
+
+The player can enter either “rock”, “paper”, or “scissors”.
+If the player enters anything other than that the computer automatically gets a point
+The computer randomly selects one of the gestures
+Use the Random type to make this easier
+Also make sure you import java.util.Random
+You can use randomly selected integers to represent the gestures
+For each combination either the computer scores a point, the player scores a point, or they score neither on draws.
+Rock vs Paper = Paper wins
+Paper vs Scissors = Scissors wins
+Scissors vs Rock = Rock wins
+After 3 rounds the winner or a tie is declared
+The player is then asked whether or not they want to play again, and if they do the whole process starts over.
+ 
+
+ 
+
+Example Dialog:
+
+ 
+
+Welcome to Rock Paper Scissors!  Best 2 out of 3!
+
+Enter "Rock", "Paper", or "Scissors"
+
+Rock
+
+Rock v Paper! Computer Wins!
+
+Player has won 0 times and the computer has won 1 times
+
+Enter "Rock", "Paper", or "Scissors"
+
+Rock
+
+Rock v Paper! Computer Wins!
+
+Player has won 0 times and the computer has won 2 times
+
+Enter "Rock", "Paper", or "Scissors"
+
+Rock
+
+Rock v Scissors! Player Wins!
+
+Player has won 1 times and the computer has won 2 times
+
+The Computer Wins!
+
+Play again? "Yes" or "No"
+
+Yes
+
+ 
+
+Enter "Rock", "Paper", or "Scissors"
+
+Paper
+
+Paper v Paper! Tie!
+
+Player has won 0 times and the computer has won 0 times
+
+Enter "Rock", "Paper", or "Scissors"
+
+Paper
+
+Paper v Paper! Tie!
+
+Player has won 0 times and the computer has won 0 times
+
+Enter "Rock", "Paper", or "Scissors"
+
+Paper
+
+Paper v Rock! Player Wins!
+
+Player has won 1 times and the computer has won 0 times
+
+The Player wins!
+
+Play again? "Yes" or "No"
+
+Yes
+
+ 
+
+Enter "Rock", "Paper", or "Scissors"
+
+Purple
+
+Not a valid input! Computer wins
+
+Player has won 0 times and the computer has won 1 times
+
+Enter "Rock", "Paper", or "Scissors"
+
+Banana
+
+Not a valid input! Computer wins
+
+Player has won 0 times and the computer has won 2 times
+
+Enter "Rock", "Paper", or "Scissors"
+
+Paper
+
+Paper v Paper! Tie!
+
+Player has won 0 times and the computer has won 2 times
+
+The Computer Wins!
+
+Play again? "Yes" or "No"
+
+No
+
+Goodbye!
+
+ 
+
+Finally:
+
+Upload the .java file to the CSCE Dropbox
+
+ 
+
+ 
