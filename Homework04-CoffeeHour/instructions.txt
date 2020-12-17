@@ -1,0 +1,75 @@
+Homework 04
+
+Due 10/23/2020 at 11:55pm
+
+Coffee Hour
+
+ 
+
+Objective: 
+
+Create a program that has a class to represent a cup of coffee that combines the properties: name and caffeine content. The class should also have a method that calculates the number of cups that would be maximally risky to consume in a short period of time. The program should create two instances of the class coffee where the user enters their properties and should output the amount of coffees that consumed would be risky.
+
+ 
+
+Requirements:
+
+Write a class called Coffee with the following
+
+Instance Variables
+Name
+Caffeine content.  Coffee is around 50 to 300mg of caffeine
+Methods
+Accessors and Mutators for the instance variables
+Make sure in the mutator for the caffeine content contains a check to make sure the value is between 50 and 300 inclusively
+RiskyAmount
+Calculates the number of coffee’s to before it would be dangerous to consume more within a short time frame, and it is based on this formula:
+
+cups amount = 180.0/((caffeine content / 100.0)*6.0)
+
+Returns the number of coffees it would take before they could be at a health risk.
+Next write a test class
+
+Contains a main method
+Creates two instances of the type Coffee
+Have the user enter in the names and caffeine contents for both
+Print out the results
+ 
+
+Example Output:
+
+ 
+
+Let’s Coffee!!!1!11!!ONE!!!1!
+
+ 
+
+What’s the name of the first coffee?
+
+Double Triple Loca Mocha Latte Venti Grande
+
+What’s the caffeine content?
+
+150
+
+ 
+
+What’s the name of the second coffee?
+
+Waffle House Coffee
+
+What’s the caffeine content?
+
+100
+
+It would take 20.0 Double Triple Loca Mocha Latte Venti Grande coffees before it’s dangerous to drink more.
+
+It would take 30.0 Waffle House Coffee coffees to before it’s dangerous to drink more.
+
+ 
+
+ 
+
+Finally:
+
+Submit the files to the CSCE Dropbox
