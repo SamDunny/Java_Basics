@@ -1,0 +1,99 @@
+Lab 05
+
+Apple Maker
+
+ 
+
+Objective:
+
+ 
+
+Write a program that creates a class Apple and a tester to make sure the Apple class is crisp and delicious.
+
+ 
+
+Requirements:
+
+First create a class called Apple
+
+Write a class file called Apple that DOES NOT HAVE a main method
+Some of the attributes (instance variables) of Apple are
+Type: A string that describes the apple.  It may only be of these following types
+Red Delicious
+Golden Delicious
+Gala
+Granny Smith
+Weight: A decimal value representing the apple’s weight in kilograms.  The weight must be between 0kg and 2kg both inclusive.
+Price: The price per apple.  This must be a non-negative decimal value.
+Create the following Constructors
+Default – sets everything to default values and has no parameters
+Parameterized – has one parameter for each instance variable and only sets those values if they’re valid. HINT: Use mutators.
+Accessors and Mutators for each instance variable
+MAKE SURE THE MUTATORS CHECK FOR VALID VALUES!
+If they are not valid then make sure the set them to a valid value and print out the value was invalid.
+Create the following Methods
+toString: Returns a string with all of the instance variable values
+Ex: “Type: <<apple’s name>> Weight <<apple’s weight>> Price <<apple’s price>>”
+equals: This method returns a Boolean and takes in another instance of an apple.  It returns true if all of the instance variables equal the instance variables in the other apple
+ 
+
+Finally create a class called AppleTester
+
+This class DOES HAVE a main method
+Create at least 3 different types of apples
+Test if the accessors, mutators, and other methods work as intended.
+ 
+
+Example Dialog:
+
+ 
+
+Welcome to the apple tester
+
+ 
+
+Creating a default apple
+
+Printing the default apple's value
+
+Type: Gala Weight: 0.0 Price: 0.0
+
+ 
+
+Creating another apple
+
+Setting the new apple's values to the following, valid values
+
+"Granny Smith 0.75 0.99"
+
+Printing the new apple's values
+
+Type: Granny Smith Weight: 0.75 Price: 0.99
+
+ 
+
+Creating another defult apple
+
+Then setting the new apple's values to the following, invalid values "iPad 2.5 -200"
+
+Printing the newest apple's values which should not have changed from the default values
+
+Type: Gala Weight: 0.0 Price: 0.0
+
+ 
+
+Checking if the first and last apple have the same values.
+
+True
+
+ 
+
+Lab Report Questions:
+
+In your own words describe what a class is used for.
+In your own words describe encapsulation as it relates to object oriented programming
+ 
+
+Finally:
+
+Upload ALL java files to the CSCE Dropbox
