@@ -1,0 +1,545 @@
+Homework 05
+
+Due 10/30/2020 at 11:55pm
+
+Peanut Butter and Jelly Sandwich
+
+ 
+
+Objective:
+
+Practice object-oriented principles by making two Peanut Butter and Jelly Sandwiches. The program must create two sandwiches based on user input. The sandwich information for both must then print out their details and determine if the two sandwiches are equal.
+
+ 
+
+Requirements: 
+
+Write a class called Bread with the following
+
+Instance Variables
+Name: The name brand of the bread.
+o   Calories: The number of calories per slice assumed to be between 50 and 250 inclusively.
+
+Type: The kind of bread. This can either be “Honey Wheat”, “White”, “Whole Grain”, or “Whole Wheat”.
+Methods
+Accessors and Mutators for the instance variables
+Make sure in the mutators check for valid values named in the Instance Variable Section.
+Equals: This method takes in another instance of Bread and only returns true if all of the instance variables match. For name and type case should be ignored.
+ToString: This method returns a string with all of the instance variable values.
+ 
+
+Write a class called PeanutButter with the following
+
+Instance Variables
+Name: The name brand of peanut butter.
+Calories: The number of calories per serving assumed to be between 100 and 300 inclusively.
+IsCrunchy: True if the peanut butter is crunchy and false otherwise.
+Methods
+Accessors and Mutators for the instance variables
+Make sure in the mutators check for valid values named in the Instance Variable Section.
+Equals: This method takes in another instance of Peanut Butter and only returns true if all of the instance variables match. For name case should be ignored.
+ToString: This method returns a string with all of the instance variable values.
+ 
+
+Write a class called Jelly with the following
+
+Instance Variables
+Name: The brand name of the Jelly
+Calories: The number of calories per serving assumed to be between 50 and 200 inclusively
+FruitType: The type of fruit the jelly is made from and can only be “Apple”, “Blueberry”, “Grape”, “Strawberry”, or “Tomato”.
+Methods
+Accessors and Mutators for the instance variables
+Make sure in the mutators check for valid values named in the Instance Variable Section.
+Equals: This method takes in another instance of Jelly and only returns true if all of the instance variables match. For name and fruit type case should be ignored.
+ToString: This method returns a string with all of the instance variable values.
+ 
+
+Write a class called PBJSandwich with the following
+
+Instance Variables
+TopSlice: An instance of type Bread representing the top slice of bread.
+PeanutButter: An instance of type PeanutButter representing the peanut butter.
+Jelly: An instance of type Jelly representing the jelly.
+BottomSlice: An instance of type Bread representing the bottom slice of bread.
+Methods
+Accessors and Mutators for the instance variables
+Make sure in the mutators check for valid values named in the Instance Variable Section.
+Equals: This method takes in another instance of PBJSandwich and only returns true if all of the instance variables match by calling their Equals methods.
+ToString: This method returns a string with all of the instance variable values.
+ 
+
+Write a class called PBJFrontEnd with the following
+
+Methods
+Main Method
+Create Two instances of PBJSandwich
+User enters all the properties of the sandwiches
+Prints out the values of the two sandwiches
+Determines if they are the same sandwich
+ 
+
+ 
+
+Example Output:
+
+ 
+
+-----------------------------------
+
+Welcome to the PBJ Sandwich Maker!
+
+-----------------------------------
+
+-----Sandwich 1-----
+
+Top Slice of Bread Information
+
+Enter name of the bread
+
+Wonder Bread
+
+Enter the number of calories
+
+80
+
+Enter the type of bread. Must be "Honey Wheat", "White", "Whole Grain", or "Whole Wheat"
+
+whole wheat
+
+Peanut Butter Information
+
+Enter name of the peanut butter
+
+JIF
+
+Enter the number of calories
+
+190
+
+Is it crunchy? Enter "true", or "false"
+
+false
+
+Jelly Information
+
+Enter name of the jelly
+
+Smuckers
+
+Enter the number of calories
+
+150
+
+Enter the type of bread. Must be "Apple", "Blueberry", "Grape", "Strawberry", or "Tomato"
+
+Apple
+
+Bottom Slice of Bread Information
+
+Enter name of the bread
+
+Wonder Bread
+
+Enter the number of calories
+
+120
+
+Enter the type of bread. Must be "Honey Wheat", "White", "Whole Grain", or "Whole Wheat"
+
+honey Wheat
+
+ 
+
+-----Sandwich 2-----
+
+Top Slice of Bread Information
+
+Enter name of the bread
+
+Pepperidge Farm
+
+Enter the number of calories
+
+100
+
+Enter the type of bread. Must be "Honey Wheat", "White", "Whole Grain", or "Whole Wheat"
+
+Whole grain
+
+Peanut Butter Information
+
+Enter name of the peanut butter
+
+Peter Pan
+
+Enter the number of calories
+
+180
+
+Is it crunchy? Enter "true", or "false"
+
+true
+
+Jelly Information
+
+Enter name of the jelly
+
+Welch's
+
+Enter the number of calories
+
+150
+
+Enter the type of bread. Must be "Apple", "Blueberry", "Grape", "Strawberry", or "Tomato"
+
+Grape
+
+Bottom Slice of Bread Information
+
+Enter name of the bread
+
+Lender's
+
+Enter the number of calories
+
+150
+
+Enter the type of bread. Must be "Honey Wheat", "White", "Whole Grain", or "Whole Wheat"
+
+Whole Wheat
+
+ 
+
+-----Sandwich 1-----
+
+PBJ Sandwich
+
+Top Slice:
+
+Bread
+
+Name: Wonder Bread
+
+Calories: 80
+
+Type: whole wheat
+
+Peanut Butter:
+
+Peanut Butter
+
+Name: JIF
+
+Calories: 190
+
+Is Crunchy: true
+
+Jelly:
+
+Jelly
+
+Name: Smuckers
+
+Calories: 100
+
+Fruit Type: Apple
+
+Bottom Slice:
+
+Bread
+
+Name: Wonder Bread
+
+Calories: 120
+
+Type: honey Wheat
+
+ 
+
+ 
+
+-----Sandwich 2-----
+
+PBJ Sandwich
+
+Top Slice:
+
+Bread
+
+Name: Pepperidge Farm
+
+Calories: 100
+
+Type: Whole grain
+
+Peanut Butter:
+
+Peanut Butter
+
+Name: Peter Pan
+
+Calories: 180
+
+Is Crunchy: true
+
+Jelly:
+
+Jelly
+
+Name: Welch's
+
+Calories: 100
+
+Fruit Type: Grape
+
+Bottom Slice:
+
+Bread
+
+Name: Lender's
+
+Calories: 150
+
+Type: Whole Wheat
+
+ 
+
+ 
+
+Are they the same sandwich? false
+
+ 
+
+Example Output 2:
+
+ 
+
+-----------------------------------
+
+Welcome to the PBJ Sandwich Maker!
+
+-----------------------------------
+
+-----Sandwich 1-----
+
+Top Slice of Bread Information
+
+Enter name of the bread
+
+Wonder
+
+Enter the number of calories
+
+100
+
+Enter the type of bread. Must be "Honey Wheat", "White", "Whole Grain", or "Whole Wheat"
+
+White
+
+Peanut Butter Information
+
+Enter name of the peanut butter
+
+JIF
+
+Enter the number of calories
+
+150
+
+Is it crunchy? Enter "true", or "false"
+
+false
+
+Jelly Information
+
+Enter name of the jelly
+
+Welchs
+
+Enter the number of calories
+
+150
+
+Enter the type of bread. Must be "Apple", "Blueberry", "Grape", "Strawberry", or "Tomato"
+
+Grape
+
+Bottom Slice of Bread Information
+
+Enter name of the bread
+
+Wonder
+
+Enter the number of calories
+
+100
+
+Enter the type of bread. Must be "Honey Wheat", "White", "Whole Grain", or "Whole Wheat"
+
+White
+
+ 
+
+-----Sandwich 2-----
+
+Top Slice of Bread Information
+
+Enter name of the bread
+
+Wonder
+
+Enter the number of calories
+
+100
+
+Enter the type of bread. Must be "Honey Wheat", "White", "Whole Grain", or "Whole Wheat"
+
+white
+
+Peanut Butter Information
+
+Enter name of the peanut butter
+
+JIF
+
+Enter the number of calories
+
+150
+
+Is it crunchy? Enter "true", or "false"
+
+false
+
+Jelly Information
+
+Enter name of the jelly
+
+Welchs
+
+Enter the number of calories
+
+150
+
+Enter the type of bread. Must be "Apple", "Blueberry", "Grape", "Strawberry", or "Tomato"
+
+grape
+
+Bottom Slice of Bread Information
+
+Enter name of the bread
+
+wonder
+
+Enter the number of calories
+
+100
+
+Enter the type of bread. Must be "Honey Wheat", "White", "Whole Grain", or "Whole Wheat"
+
+white
+
+ 
+
+-----Sandwich 1-----
+
+PBJ Sandwich
+
+Top Slice:
+
+Bread
+
+Name: Wonder
+
+Calories: 100
+
+Type: White
+
+Peanut Butter:
+
+Peanut Butter
+
+Name: JIF
+
+Calories: 150
+
+Is Crunchy: true
+
+Jelly:
+
+Jelly
+
+Name: Welchs
+
+Calories: 100
+
+Fruit Type: Grape
+
+Bottom Slice:
+
+Bread
+
+Name: Wonder
+
+Calories: 100
+
+Type: White
+
+ 
+
+ 
+
+-----Sandwich 2-----
+
+PBJ Sandwich
+
+Top Slice:
+
+Bread
+
+Name: Wonder
+
+Calories: 100
+
+Type: white
+
+Peanut Butter:
+
+Peanut Butter
+
+Name: JIF
+
+Calories: 150
+
+Is Crunchy: true
+
+Jelly:
+
+Jelly
+
+Name: Welchs
+
+Calories: 100
+
+Fruit Type: grape
+
+Bottom Slice:
+
+Bread
+
+Name: wonder
+
+Calories: 100
+
+Type: white
+
+ 
+
+ 
+
+Are they the same sandwich? true
+
+ 
+
+Finally:
+
+Submit the files to the CSCE Dropbox
