@@ -1,0 +1,81 @@
+Lab 06
+
+String Helper
+
+ 
+
+Objective:
+
+ 
+
+Write a program that creates a helper class called StringHelper.  This class has methods not already built into strings, but should be because they are super useful.
+
+ 
+
+Requirements:
+
+ 
+
+First create a class called StringHelper which has the following static methods
+
+hasAllUniqueCharacters: This method takes in a string and then returns true only if no character repeats in the string. For instance “facetiously” would return true, but “banana” would return false. Case is ignored.
+meshStrings: This method takes in two strings via parameters, meshes them together, and returns the meshed strings.  Meshing alternates each character in the first string with every character in the next string.  If there are not enough characters to fully mesh then the rest will be appended to the end.  For instance if the two strings were “harp” and “fiddle” the returned string will be “hfairdpdle”.
+replaceVowelsWithOodle: This method takes in one string via parameter, and returns the string with every vowel (a,e,i,o,u) replaced by the phrase “oodle”.  For instance if the string is “burrito” then the returned string would be “boodlerroodletoodle”.  Also case does not matter. Case is ignored.
+weight: Much like length returns the number of characters in a string, the weight gives the weight in kilograms.  This method takes in a string and returns a double value corresponding to its weight.  Everyone knows that a word’s weight is determined by each vowel (a,e,i,o,u) counting as 2.5 kilograms and each consonant as 3.4 kilograms.  For example the word “heavy” is 15.2 kg while the word “light” is 16.1 kg. Case is ignored.
+ 
+
+Finally create a class called StringHelperTester
+
+This class DOES HAVE a main method
+Test each method multiple times to determine if they work.
+ 
+
+Example Dialog:
+
+ 
+
+Welcome to the String Helper Tester!
+
+ 
+
+Testing Has All Unique Characters with "facetiously"
+
+true
+
+Testing Has All Unique Characters with "banana"
+
+false
+
+ 
+
+Testing Mesh Strings with "harp" and "fiddle"
+
+hfairdpdle
+
+ 
+
+Testing Replace Vowels with Oodle with "burrito"
+
+boodlerroodletoodle
+
+ 
+
+Testing Weight with "heavy"
+
+15.200000000000001
+
+ 
+
+Testing Weight with "light"
+
+16.1
+
+Lab Report Questions:
+
+Define a static method and give when is it most appropriate to use a static methods?
+Is it possible for a static method to call a non-static method?
+ 
+
+Finally:
+
+Upload ALL java files to the CSCE Dropbox
