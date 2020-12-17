@@ -1,0 +1,72 @@
+Homework 00
+
+Choose Your Own Adventure!
+
+Due 09/18/2020 at 11:55PM
+
+ 
+
+Objective:
+
+ 
+
+Write a program that allows the user to play a “Choose Your Own Adventure” game.  In this game the user will be prompted with making decisions, which will then lead them to different paths with different results.
+
+ 
+
+Requirements:
+
+There must be at least 9 different endings.
+Each ending requires at least two decisions.
+To get 3 of the endings there must be at least 3 decisions the player has to make.
+There must be at least one example of:
+Numeric comparison, such as equals to, less than etc.
+String comparison
+A compound Boolean expression
+These do not have to be a part of reaching each ending they just have to be in there somewhere
+Be creative!
+ 
+
+ 
+
+Example Dialog:
+
+ 
+
+Welcome to the land of Donkeydwarf!  Will you go to the inn, look for trouble, or talk to the shady looking elf standing near the entrance? Enter “inn”, “trouble”, or “elf”.
+
+INN
+
+ 
+
+You enter the musty inn, and approach the inn keeper.  “Aye you looking to rent a room? Yes or No?”, she rasps.
+
+Yes
+
+ 
+
+“The cheap rooms are filled up, but if you do me a favor, then I’ll let you have a nice suit.” Enter yes or no.
+
+Yes
+
+ 
+
+“There’s this dragon ya see.  He stole all my pickles.  I want him to pay! Go make him pay!”  You venture out and find the pickle pilfering dragon.  The dragon will give you the pickles if you guess the number it is thinking between 1 and 10.  Enter that number.
+
+5
+
+ 
+
+“That was not the number I thought of”.  The dragon roasts you alive and you are consumed with the rest of the stolen pickles.  THE END.
+
+ 
+
+ 
+
+Finally:
+
+Upload the .java file to the CSCE Dropbox
+
+ 
+
+ 
