@@ -22,7 +22,7 @@ public class ABelowAverageWinter {
 			tot_sum += temp;
 		}
 		
-		// calculate average (need to typecast the day amiunt to achieve correct division result)
+		// calculate average (need to typecast the day amount to achieve correct division result)
 		double average = tot_sum/(double)num_of_days;
 		System.out.println("\nThe average temperature was " + average);
 		
