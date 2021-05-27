@@ -1,0 +1,13 @@
+{
+    "java.project.sourcePaths": [
+        "Lab01_TheCoinMachine",
+        "Lab02_DiceRoll",
+        "Lab03_ABelowAverageWinter",
+        "Lab04_DateAndTimeMethods",
+        "Lab05_AppleMaker",
+        "Lab06_StringHelper",
+        
+        "Homework00_ChooseYourOwnAdventure",
+        "Homework01_RockPaperScissors"
+    ]
+}
