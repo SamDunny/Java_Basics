@@ -17,13 +17,20 @@ Write a program that sorts prices of 10 tacos in ascending order based on the pr
 Requirements:
 
 The user enters the name of the taco and then the price of the taco
-HINT: Two arrays make this problem simpler.  One with the names and the other with the prices. The indices indicate the combination. For instance, a taco price at index 5 has its name also at index 5 of the other array.
-HINT: It is a good idea that after using keyboard.nextDouble() to write the following line: keyboard.nextLine();. The scanner will not consume everything in the buffer unless you tell it to using nextLine. 
+HINT: Two arrays make this problem simpler.  One with the names and the other with the prices.
+The indices indicate the combination. For instance, a taco price at index 5 has its name also at
+index 5 of the other array.
+HINT: It is a good idea that after using keyboard.nextDouble() to write the following line:
+keyboard.nextLine();. The scanner will not consume everything in the buffer unless you tell 
+it to using nextLine.
+
 After 10 tacos are entered they are sorted based on the price
 You can use any sorting method such as bubble sort or selection sort
 Display the results at the end
-Arrays must be part of the solution, and other built in Java data structures, such as ArrayLists, may not be used.
-Sorting must be implemented (bubble sort, selection sort, etc.)  in the solution, and other built in Java sorters may not be used.
+Arrays must be part of the solution, and other built in Java data structures, such as ArrayLists,
+may not be used.
+Sorting must be implemented (bubble sort, selection sort, etc.)  in the solution, and other built
+in Java sorters may not be used.
  
 
  
