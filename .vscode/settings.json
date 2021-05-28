@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "LabEX_MatrixAdder",
         "LabEX_ChineseZodiac",
         "Lab06_StringHelper",
         "Lab05_AppleMaker",
@@ -12,6 +13,6 @@
         "Homework03_TacoSorter",
         "Homework01_RockPaperScissors",
         "Homework00_ChooseYourOwnAdventure",
-        "LabEX_MatrixAdder"
+        "LabEX_FinalGradeCalculator"
     ]
 }
